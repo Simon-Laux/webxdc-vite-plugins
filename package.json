@@ -1,5 +1,5 @@
 {
-  "name": "webxdc-vite-plugins",
+  "name": "@webxdc/vite-plugins",
   "version": "0.3.0",
   "scripts": {
     "format": "prettier --write .",
