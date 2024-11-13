@@ -1,8 +1,9 @@
 const readFileSync = require("node:fs").readFileSync;
+const { join } = require("node:path");
 
 // serve a mock webxdc.js file in development mode to fake webxdc API while developing in the browser
 exports.mockWebxdc = function (
-  path = "./node_modules/webxdc-vite-plugins/emulator/webxdc.js"
+  path = join(__dirname, "../emulator/webxdc.js")
 ) {
   const scriptSrc = readFileSync(path, "utf-8");
   return {

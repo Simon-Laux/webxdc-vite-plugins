@@ -7,7 +7,7 @@ import {
   legacy,
   injectScript,
   webxdcScores,
-} from "webxdc-vite-plugins";
+} from "@simon-laux/webxdc-vite-plugins";
 import { defineConfig } from "vite";
 
 // https://vitejs.dev/config/
